@@ -3346,8 +3346,8 @@ var lightColors = __assign(__assign(__assign({}, baseColors), additionalColors),
         violetAlt: "linear-gradient(180deg, #CBD7EF 0%, #9A9FD0 100%)",
         gold: "linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), additionalColors), { background: "#3e2bc5", backgroundDisabled: "#3c3742", backgroundAlt: "#221779", cardBorder: "#221779", contrast: "#FFFFFF", dropdown: "#1E1D20", dropdownDeep: "#100C18", invertedContrast: "#161044", input: "#3d3f76", inputSecondary: "#aaa3b9", primaryDark: "#F9F9F9", tertiary: "#362a9b", text: "#e2fafc", textDisabled: "#555e63", textSubtle: "#c4d4d3", disabled: "#524B63", gradients: {
-        bubblegum: "#3e2bc5",
+var darkColors = __assign(__assign(__assign({}, baseColors), additionalColors), { background: "#edf1f8", backgroundDisabled: "#3c3742", backgroundAlt: "#10002b", cardBorder: "#10002b", contrast: "#FFFFFF", dropdown: "#1E1D20", dropdownDeep: "#100C18", invertedContrast: "#161044", input: "#3d3f76", inputSecondary: "#aaa3b9", primaryDark: "#F9F9F9", tertiary: "#362a9b", text: "#10002b", textDisabled: "#555e63", textSubtle: "#c4d4d3", disabled: "#524B63", gradients: {
+        bubblegum: "#eeeee",
         inverseBubblegum: "linear-gradient(139.73deg, #3D2A54 0%, #313D5C 100%)",
         cardHeader: "linear-gradient(166.77deg, #3B4155 0%, #3A3045 100%)",
         blue: "linear-gradient(180deg, #00707F 0%, #19778C 100%)",
@@ -4060,7 +4060,7 @@ var socials = [
         // items: [
         //   {
         //     label: "English",
-        href: "https://t.me/miamitoken",
+        href: "https://t.me/haminetwork1",
         //   },
         //   {
         //     label: "中文",
@@ -4083,7 +4083,7 @@ var socials = [
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/miami_Token_",
+        href: "https://twitter.com/haminetwork",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -4178,7 +4178,7 @@ var MenuLink = function (_a) {
 };
 
 var Icons$1 = IconModule;
-var Container$1 = styled__default['default'].div(templateObject_1$d || (templateObject_1$d = __makeTemplateObject(["\n  display: flex;\n  flex-direction: column;\n  overflow-y: auto;\n  overflow-x: hidden;\n  height: 100%;\n  background: #221779;\n"], ["\n  display: flex;\n  flex-direction: column;\n  overflow-y: auto;\n  overflow-x: hidden;\n  height: 100%;\n  background: #221779;\n"])));
+var Container$1 = styled__default['default'].div(templateObject_1$d || (templateObject_1$d = __makeTemplateObject(["\n  display: flex;\n  flex-direction: column;\n  overflow-y: auto;\n  overflow-x: hidden;\n  height: 100%;\n  background: #10002b;\n"], ["\n  display: flex;\n  flex-direction: column;\n  overflow-y: auto;\n  overflow-x: hidden;\n  height: 100%;\n  background: #10002b;\n"])));
 var PanelBody = function (_a) {
     var isPushed = _a.isPushed, pushNav = _a.pushNav, isMobile = _a.isMobile, links = _a.links;
     var location = reactRouterDom.useLocation();
@@ -4237,7 +4237,7 @@ var SocialLinks = function () { return (React__default['default'].createElement(
 }))); };
 var SocialLinks$1 = React__default['default'].memo(SocialLinks, function () { return true; });
 
-var Container = styled__default['default'].div(templateObject_1$b || (templateObject_1$b = __makeTemplateObject(["\n  flex: none;\n  padding: 8px 4px;\n  background-color: #221779;\n  border-top: solid 2px rgba(133, 133, 133, 0.1);\n"], ["\n  flex: none;\n  padding: 8px 4px;\n  background-color: #221779;\n  border-top: solid 2px rgba(133, 133, 133, 0.1);\n"])));
+var Container = styled__default['default'].div(templateObject_1$b || (templateObject_1$b = __makeTemplateObject(["\n  flex: none;\n  padding: 8px 4px;\n  background-color: #10002b;\n  border-top: solid 2px rgba(133, 133, 133, 0.1);\n"], ["\n  flex: none;\n  padding: 8px 4px;\n  background-color: #10002b;\n  border-top: solid 2px rgba(133, 133, 133, 0.1);\n"])));
 styled__default['default'].div(templateObject_2$5 || (templateObject_2$5 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 8px;\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 8px;\n"])), MENU_ENTRY_HEIGHT);
 var SocialEntry = styled__default['default'].div(templateObject_3$2 || (templateObject_3$2 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 16px;\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 16px;\n"])), MENU_ENTRY_HEIGHT);
 var PanelFooter = function (_a) {
